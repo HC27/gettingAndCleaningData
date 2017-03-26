@@ -55,10 +55,12 @@ b <- aggregate(.~subject,main_data[,which(names(main_data)!="activities")],mean)
 #transpose to get by columns of activties/subjects (these are now the variables, each mean is an observation)
 ta<-t(a)
 tb<-t(b)
-
+#add subject to the start of each heading of tb to make the names clearer
+paste0("subject ",colnames(tb),"")
 #set the column names to the activity or the subject
 colnames(tb)<-tb[1,]
 tb<-tb[-1,]
+colnames(tb)<- paste0("subject ",colnames(tb),"")
 
 colnames(ta)<-ta[1,]
 ta<-ta[-1,]

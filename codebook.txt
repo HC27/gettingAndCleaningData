@@ -1,0 +1,11 @@
+Codebook for final data:
+variables - the names of the variables from the UCI HAR dataset. Only those for teh mean and standard deviation for the features are kept
+More information of each variable can be found in "features_info.txt"
+LAYING - measurements when the subjects were lying down, the average for each variable accross all observation for the 'laying' activity
+SITTING - measurements when the subjects were sitting down, the average for each variable accross all observation for the 'sitting' activity
+STANDING - measurements when the subjects were standing, the average for each variable accross all observation for the 'standing' activity          
+WALKING - measurements when the subjects were walking, the average for each variable accross all observation for the 'walking' activity             
+WALKING_DOWNSTAIRSmeasurements when the subjects were walking downstairs, the average for each variable accross all observation for the 'walking downstairs' activity 
+WALKING_UPSTAIRS - measurements when the subjects were walking upstairs, the average for each variable accross all observation for the 'walking upstairs' activity   
+subject 1 - subject 30 - the average for each variable accross all observation for each subject by number             
+             
